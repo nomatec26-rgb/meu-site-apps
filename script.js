@@ -73,7 +73,7 @@ const apps = [
     type: "diferente", // usados, tendencia, diferente...
     badge: " 💬", // opcional
     rating: "★★★★★",
-    desc: "Ganhe dinheiro respondendo pesquisas",
+    desc: "Converse com qualquer pessoa, e ganhe dinheiro com canais de Telegram",
     img: "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
     link: "https://play.google.com/store/search?q=telegram&c=apps",
     referral: "https://web.telegram.org/k/"
@@ -84,7 +84,7 @@ const apps = [
     type: "renda", // usados, tendencia, diferente...
     badge: "💰", // opcional
     rating: "★★★★★",
-    desc: "Ganhe dinheiro respondendo pesquisas",
+    desc: "Ganhe dinheiro criando conteúdo no TikTok",
     img: "https://logo.svgcdn.com/logos/tiktok.png",
     link: "https://play.google.com/store/search?q=tiktok&c=apps",
     referral: "https://www.tiktok.com/d/1/ZS98hUatMNed8-ISVkJ/"

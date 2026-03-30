@@ -150,11 +150,12 @@ footer {
     padding: 15px;
   }
 
-  .buttons {
-    flex-direction: column;
-  }
+}
+.buttons {
+  flex-direction: column;
+  gap: 10px;
+}
 
-  .btn {
-    width: 100%;
-  }
+.btn {
+  width: 100%;
 }
