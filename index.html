@@ -1,0 +1,48 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melhores Apps</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>📱 Melhores Apps</h1>
+    <p>Descubra apps úteis de verdade</p>
+  </header>
+
+  <div class="top-bar">
+    <input type="text" id="search" placeholder="Buscar app...">
+    <select id="filter">
+      <option value="all">Todas</option>
+      <option value="usados">Mais usados</option>
+      <option value="tendencia">Novos e tendência</option>
+      <option value="diferente">Diferentes</option>
+      <option value="renda">Renda extra</option>
+    </select>
+  </div>
+
+  <div class="container" id="apps"></div>
+
+  <div class="feedback">
+  <h3>💬 Sugestões de apps</h3>
+  <input type="text" id="suggestion" placeholder="Digite um app...">
+  <button onclick="sendSuggestion()">Enviar</button>
+</div>
+
+
+  <footer>
+    Feito pra você 🚀
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
